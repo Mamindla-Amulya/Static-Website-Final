@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>AIML Content - TalentSprint</title>
+        <link rel="stylesheet" href="../theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../">AIML Content </a></h1>
+                <nav><ul>
+                    <li><a href="../category/master.html">Master</a></li>
+                    <li><a href="../category/module-1.html">Module 1</a></li>
+                    <li><a href="../category/module-2.html">Module 2</a></li>
+                    <li><a href="../category/module-3.html">Module 3</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="../lecture1-details.html">Lecture1 Details</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2019-07-23T23:39:00+05:30">
+                Published: Tue 23 July 2019
+        </abbr>
+		<br />
+        <abbr class="modified" title="2019-05-07T23:39:00+05:30">
+                Updated: Tue 07 May 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/talentsprint.html">TalentSprint</a>
+        </address>
+<p>In <a href="../category/module-1.html">Module 1</a>.</p>
+
+</footer><!-- /.post-info --><h1>Topic Name: Representing Text and Language</h1>
+<h1><li><a href="https://drive.google.com/file/d/1fvQnvDf2hBbgrgUieRytHlAL2getXDtb/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br></h1>
+<h1>Slides<br></h1>
+<h1><li><a href="https://www.dropbox.com/home/Batch7/Slides/Day04?preview=1-Representing_Text_and_Language.pptx" target="_blank">Representing Text and Language</h1>
+<p></a></li> <br></p>
+<h1>Preview Video <br><br></h1>
+<p><iframe src="https://videoken.com/embed/vkene-a0yjEjEBKw"width="640" height="480"></iframe></p>
+<h1>Experiment<br><br></h1>
+<p><strong>BOW_20newsgroup</strong> <br>
+1.  Representation of  text document using Bag of Words<br>
+2.  Understand Bag of Words represented text data with K-nearest neighbours<br></p>
+<p><strong>Note:</strong>Here is the following Notebook For <a href="https://drive.google.com/file/d/1r_W2Dz442PlDXM-qBpsVoW6SR3KPxDga/view?usp=sharing">BOW_20newsgroup</a></p>
+<p><br><br></p>
+<h3>Experiment Explanation Video <br><br></h3>
+<p><iframe src="https://cdn.talentsprint.com/aiml/AIML_BATCH_HYD_7/Week_1/bag_of_words.mp4"width="640" height="480"></iframe></p>
+<p><br><br></p>
+<h1>Lecture Video (Batch 9) <br><br></h1>
+<iframe src="https://videoken.com/embed/vkene-dPokq_0Irg"width="640" height="480"></iframe>
+
+<p><head></p>
+<p><meta name="description" content="Use a free Google Firebase Database to allow visitors to leave comments on your web pages. From https://AlanSimpson.me/firebase">    <br />
+<meta name="author" content="Alan Simpson">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================--></p>
+<style>
+
+      li#news  {
+           width: 500px;
+           height: 40px;
+           background: #b2beb5;
+           border-radius: 5px;
+
+        }
+</style>
+
+<p></head></p>
+<p><body></p>
+<div class="container-contact100" id="allcomments">
+ <div class="wrap-contact100">
+
+    <form class="contact100-form validate-form" id = "newcomment">
+
+
+
+       <ul id="lecture1"></ul>
+
+
+    <span class="contact100-form-title"> Comments Box</span>
+
+    <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+       <input class="input100" id="tbName" type="text" maxlength="20" placeholder="Full Name" required> 
+        <span class="focus-input100"></span>
+    </div>
+
+    <div class="wrap-input100 validate-input" data-validate = "Please enter your comment">
+       <textarea  class="input100" id="txComment" maxlength="4096" required style="width:96%" placeholder="Please enter your comment"></textarea>
+    <span class="focus-input100"></span>
+    </div>
+    <button class="contact100-form-btn" id="btnSubmitComment" value="Submit"><span>
+    <i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>submit</span>
+    </button>
+
+     </form>
+ </div>
+
+</div>
+
+<!-- Connection to Firebase -->
+
+<script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-firestore.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-database.js"></script>
+
+<script>
+    // Your web app's Firebase configuration
+var firebaseConfig = {
+       apiKey: "AIzaSyAP54I0zA3Z9LccG8A40SavPGWKSWqQIX4",
+       authDomain: "comments-box.firebaseapp.com",
+       databaseURL: "https://comments-box.firebaseio.com",
+       projectId: "comments-box",
+       storageBucket: "",
+       messagingSenderId: "704881653750",
+       appId: "1:704881653750:web:91c534874fcbb716"
+     };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+
+       //Rootref is the whole database.
+       const rootRef = firebase.database().ref();
+       //commentsRef is just the pageCountsNode
+       const commentsRef = rootRef.child('lecture1');
+       //Listen for click on Submit Comment button, and post comment.
+       document.getElementById("btnSubmitComment").addEventListener("click", function () {
+       //Replace line breaks in comment with br tags.
+       var newcomment = document.getElementById('txComment').value.replace(/\n/g, "<br>");
+       //Define a new, keyed post.
+       var newPostRef = commentsRef.push();
+       //Fill tne new keyed post with data
+       newPostRef.set({
+       name: document.getElementById('tbName').value.trim(),
+       comment: newcomment.trim(),
+       frompage: location.pathname,
+       when: firebase.database.ServerValue.TIMESTAMP
+       });
+     });
+
+       function showpastcomments() {
+       var showat = document.getElementById('lecture1');
+       //Get comments whose from page equals this page's pathname.
+       var commentsRef = firebase.database().ref('lecture1/');
+       commentsRef.once('value', function (snapshot) {
+       snapshot.forEach(function (itemSnapshot) {
+       //Get the object for one snapshot
+       var itemData = itemSnapshot.val();
+       //console.log(Object.keys(itemData))
+       //console.log(k);
+       var comment = itemData.comment;
+       var name = itemData.name;
+       var k = itemSnapshot.key;
+       var kd = itemSnapshot.val();
+       console.log(kd)
+       //var key = Object.keys(itemSnapshot.val())[2];
+       console.log(k)
+       var remove = ' <input type="button"  value="Delete" id = "' +k+'" class="delButton" onclick="removeData_1(this)" />';
+       var reply = ' <input type="button"  value="Reply" id = "' +k+'" class="Reply" onclick="reply(this)" />';
+       var when = new Date(itemData.when).toLocaleDateString("en-us");
+       showat.innerHTML +=  name 
+       showat.innerHTML += "<li id='news'>" + comment +"</span>--<span> (" + when +")</span></li>";
+       })
+     })
+  }
+    //Called when page first opens and also after Submit button click to show all comments for this page.
+       showpastcomments()
+
+
+
+    </script>
+
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+
+<script>
+//
+//$(".delButton").on("click", function(){
+
+  //let keyvalue =$(this).closest("li").find("span.key").text();
+  //let ref = firebase.database().ref('comments/'+ keyvalue);
+
+   //ref.child(key).remove();
+   //ref.set({})
+//});
+
+
+
+
+
+
+</script>
+
+<script>
+function removeData_1(params){
+   const fb = firebase.database().ref()
+   // key = document.getElementById('key').value;
+    fb.child('lecture1/'+ params.id +'/').remove()
+    alert('The comment is deleted successfully!');
+    reload_page();
+
+}
+function reload_page(){
+   window.location.reload();
+  }
+
+
+
+
+
+</script>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../lecture10-details.html" rel="bookmark"
+                           title="Permalink to Lecture10 Details">Lecture10 Details</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-07-23T23:39:00+05:30">
+                Published: Tue 23 July 2019
+        </abbr>
+		<br />
+        <abbr class="modified" title="2019-05-07T23:39:00+05:30">
+                Updated: Tue 07 May 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/talentsprint.html">TalentSprint</a>
+        </address>
+<p>In <a href="../category/module-2.html">Module 2</a>.</p>
+
+</footer><!-- /.post-info -->                <h1>Topic Name : Back Propagation</h1>
+<h1><li><a href="https://drive.google.com/file/d/1d9dAqWASNiWXsyGnBCdjA6mo5VKhAIz3/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br></h1>
+<h1>Slides<br></h1>
+<h1><li><a href="https://www.dropbox.com/home/Batch7/Slides/Day12?preview=Back_Propagation.pptx" target="_blank">Back Propagation</a></li> <br></h1>
+<h1>Preview Video <br><br></h1>
+<p><iframe src="https://videoken.com/embed/vkene-c7VllSVwfw"width="640" height="480"></iframe></p>
+<p><br><br></p>
+<h1>Lecture Video (Batch 9) <br><br></h1>
+<p><iframe src="https://videoken.com/embed/vkene-esgJ9Gg2Gw"width="640" height="480"></iframe></p>
+                <a class="readmore" href="../lecture10-details.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../lecture11-details.html" rel="bookmark"
+                           title="Permalink to Lecture11 Details">Lecture11 Details</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-07-23T23:39:00+05:30">
+                Published: Tue 23 July 2019
+        </abbr>
+		<br />
+        <abbr class="modified" title="2019-05-07T23:39:00+05:30">
+                Updated: Tue 07 May 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/talentsprint.html">TalentSprint</a>
+        </address>
+<p>In <a href="../category/module-2.html">Module 2</a>.</p>
+
+</footer><!-- /.post-info -->                <h1>Topic Name: ML Pipeline</h1>
+<h1>Slides<br></h1>
+<h1><li><a href="https://www.dropbox.com/home/Batch7/Slides/Day12?preview=ML_Pipeline.pptx" target="_blank">ML Pipeline</a></li> <br></h1>
+<h1>Preview Video <br><br></h1>
+<p><iframe src="https://videoken.com/embed/vkene-Jf4PwKS4VQ"width="640" height="480"></iframe></p>
+<p><br><br></p>
+<h1>Experiments<br><br></h1>
+<p><strong>Leaveoneout</strong> <br></p>
+<ol>
+<li>Apply  Leave - one - out  method <br></li>
+<li>Tune the hyper parameters of MLP Classifier.</li>
+</ol>
+<p><strong>Note:</strong>Here is the following Notebook For <a href="https://drive.google.com/file/d/1fPsFqJ_qEQo_DHUwZ29d3y98aXtB9BZw/view?usp=sharing">Leaveoneout</a></p>
+<h3>Experiment Explanation Video <br><br></h3>
+<p><iframe src="https://cdn.talentsprint.com/aiml/AIML_BATCH_HYD_7/23FEB/loo.mp4"width="640" height="480"></iframe></p>
+<p><br><br></p>
+<p><strong>Kfold_Validation</strong> <br></p>
+<ol>
+<li>Apply K-Fold cross validation method<br></li>
+<li>Tune the hyper parameters of MLP Classifier<br></li>
+</ol>
+<p></p>
+<strong>Note:</strong>Here is ...
+                <a class="readmore" href="../lecture11-details.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../lecture12-details.html" rel="bookmark"
+                           title="Permalink to Lecture12 Details">Lecture12 Details</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-07-23T23:39:00+05:30">
+                Published: Tue 23 July 2019
+        </abbr>
+		<br />
+        <abbr class="modified" title="2019-05-07T23:39:00+05:30">
+                Updated: Tue 07 May 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/talentsprint.html">TalentSprint</a>
+        </address>
+<p>In <a href="../category/module-2.html">Module 2</a>.</p>
+
+</footer><!-- /.post-info -->                <h1>Topic Name : Overfitting and Generalization</h1>
+<h1><li><a href="https://drive.google.com/file/d/1xOfMuoAA8RUYA8HKCry4UpTRQT8ejXur/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br></h1>
+<h1>Slides<br></h1>
+<h1><li><a href="https://www.dropbox.com/home/Batch7/Slides/Day12?preview=Overfitting_and_Generalization.pptx" target="_blank">Overfitting and Generalization</a></li> <br></h1>
+<h1>Preview Video <br><br></h1>
+<p><iframe src="https://videoken.com/embed/vkene-F7hjrRrzpw"width="640" height="480"></iframe></p>
+<p><br><br></p>
+<h1>Experiment<br><br></h1>
+<p><strong>Polynomial_Fitting</strong> <br></p>
+<ol>
+<li>Understand Bias and Variance <br></li>
+<li>Know how does the degree of the polynomial affect the bias and variance <br></li>
+</ol>
+<p><strong>Note:</strong>Here is the following Notebook For <a href="https://drive.google.com/file/d/1gQZSGVhT_Hx-Q38w99ljpARvcTM1vtME/view?usp=sharing">Polynomial_Fitting</a></p>
+<h3>Experiment Explanation Video <br><br></h3>
+<p><iframe src="https://cdn.talentsprint.com/aiml/AIML_BATCH_HYD_7/23FEB/module_2_week_8_experment_3.mp4"width="640" height="480"></iframe></p>
+<p><br><br></p>
+<h1>Lecture Video (Batch 9) <br><br></h1>
+<p><iframe src="https://videoken.com/embed/vkene-fqf4MQ8HOQ"width="640" height="480"></iframe></p>
+<p><br><br></p>
+                <a class="readmore" href="../lecture12-details.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../lecture13-details.html" rel="bookmark"
+                           title="Permalink to Lecture13 Details">Lecture13 Details</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-07-23T23:39:00+05:30">
+                Published: Tue 23 July 2019
+        </abbr>
+		<br />
+        <abbr class="modified" title="2019-05-07T23:39:00+05:30">
+                Updated: Tue 07 May 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/talentsprint.html">TalentSprint</a>
+        </address>
+<p>In <a href="../category/module-2.html">Module 2</a>.</p>
+
+</footer><!-- /.post-info -->                <h1>Topic Name : Support Vector Machines - Linear and Non Linear</h1>
+<h1><li><a href="https://drive.google.com/drive/u/0/folders/1FpiksG6hssat67iw4RzHT2FehvIEpAVv" target="_blank">Pre-Reading</a></li> <br></h1>
+<h1>Slides<br></h1>
+<h1><li><a href="https://www.dropbox.com/home/Batch7/Slides/Day16?preview=SVM.pptx" target="_blank">Support Vector Machines - Linear and Non Linear</a></li> <br></h1>
+<h1>Preview Video For Suport Vector Machines- Linear <br><br></h1>
+<p><iframe src="https://videoken.com/embed/vkene-KgEDTmD5Fw"width="640" height="480"></iframe></p>
+<p><br><br></p>
+<h1>Preview Video For Suport Vector Machines- Non Linear <br><br></h1>
+<p><iframe src="https://videoken.com/embed/vkene-vJFbH8_nGA"width="640" height="480"></iframe>
+<br><br></p>
+<h1>Experiments<br><br></h1>
+<p><strong>SVMandKernels</strong> <br></p>
+<ol>
+<li>Understand and implement SVM algorithm to classify the given dataset<br></li>
+<li>Understand and Apply the Kernels ...</li></ol>
+                <a class="readmore" href="../lecture13-details.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../lecture14-details.html" rel="bookmark"
+                           title="Permalink to Lecture14 Details">Lecture14 Details</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-07-23T23:39:00+05:30">
+                Published: Tue 23 July 2019
+        </abbr>
+		<br />
+        <abbr class="modified" title="2019-05-07T23:39:00+05:30">
+                Updated: Tue 07 May 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/talentsprint.html">TalentSprint</a>
+        </address>
+<p>In <a href="../category/module-2.html">Module 2</a>.</p>
+
+</footer><!-- /.post-info -->                <h1>Topic Name : Time Series/RNN</h1>
+<h1><li><a href="https://drive.google.com/file/d/1YRhK5H6PXNXzw4LTTnF0U0yxn6IYvJbl/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br></h1>
+<h1>Slides<br></h1>
+<h1><li><a href="https://www.dropbox.com/home/Batch7/Slides/Day16?preview=TimeSeries_RNN.pptx" target="_blank">Time Series/RNN</a></li> <br></h1>
+<h1>Preview Video <br><br></h1>
+<p><iframe src="https://videoken.com/embed/vkene-Q5u7yywKxA"width="640" height="480"></iframe></p>
+<p><br><br></p>
+<h1>Experiment<br><br></h1>
+<p><strong>Pollution_WRT_Weather:</strong> <br></p>
+<ol>
+<li>Understand how to perform Time series prediction using RNN</li>
+</ol>
+<p><strong>Note:</strong>Here is the following Notebook For <a href="https://drive.google.com/file/d/1ODNztjG5Q02D4iHM8sslD0EQhA4eL3Df/view?usp=sharing">Pollution_WRT_Weather</a></p>
+<h3>Experiment Explanation Video <br><br></h3>
+<p><iframe src="https://cdn.talentsprint.com/aiml/AIML_BATCH_HYD_7/10march/pollution_wrt_weather.mp4"width="640" height="480"></iframe></p>
+<p><br><br></p>
+<h1>Lecture Video (Batch 9) <br><br></h1>
+<p><iframe src="https://videoken.com/embed/vkene--zzabPXRVQ"width="640" height="480"></iframe></p>
+                <a class="readmore" href="../lecture14-details.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../lecture15-details.html" rel="bookmark"
+                           title="Permalink to Lecture15 Details">Lecture15 Details</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-07-23T23:39:00+05:30">
+                Published: Tue 23 July 2019
+        </abbr>
+		<br />
+        <abbr class="modified" title="2019-05-07T23:39:00+05:30">
+                Updated: Tue 07 May 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/talentsprint.html">TalentSprint</a>
+        </address>
+<p>In <a href="../category/module-2.html">Module 2</a>.</p>
+
+</footer><!-- /.post-info -->                <h1>Topic Name :  Random Forests, Ensemble Techniques</h1>
+<h1><li><a href="https://drive.google.com/file/d/1WsGxf6YZgu80CVhPMvcIUBg7dGy_R47m/view?usp=sharing" target="_blank">Pre-Reading For Ensemble Techniques</a></li> <br></h1>
+<h1><li><a href="https://drive.google.com/file/d/1GNhMMRHpJxeuB4GX2g1VlsIDI5FwIZ-C/view?usp=sharing" target="_blank">Pre-Reading For Random Forests</a></li> <br></h1>
+<h1>Slides<br></h1>
+<h1><li><a href="https://www.dropbox.com/home/Batch7/Slides/Day16?preview=Randomforest.pptx" target="_blank">Random Forests</a></li> <br></h1>
+<h1><li><a href="https://www.dropbox.com/home/Batch7/Slides/Day16?preview=Ensemble_Methods.pptx" target="_blank">Ensemble Techniques</a></li> <br></h1>
+<h1>Preview Video <br><br></h1>
+<p><iframe src="https://videoken.com/embed/vkene-KwDYAu52GQ"width="640" height="480"></iframe></p>
+<p><br><br></p>
+<h1>Experiment<br><br></h1>
+<p><strong>Randomforest and EnsembleMethods</strong><br>
+1. Understand the concept of Random Forest<br> 
+2. Understand Decision Tree classifer and  Ensemble Methods<br></p>
+<p><strong>Note:</strong>Here is the following Notebook For <a href="https://drive.google.com/file/d/16o5AOk3JfhUq1QM3sD0UyFo8k487YUgs/view?usp=sharing">Randomforest and EnsembleMethods ...</a></p>
+                <a class="readmore" href="../lecture15-details.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../lecture16-details.html" rel="bookmark"
+                           title="Permalink to Lecture16 Details">Lecture16 Details</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-07-23T23:39:00+05:30">
+                Published: Tue 23 July 2019
+        </abbr>
+		<br />
+        <abbr class="modified" title="2019-05-07T23:39:00+05:30">
+                Updated: Tue 07 May 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/talentsprint.html">TalentSprint</a>
+        </address>
+<p>In <a href="../category/module-2.html">Module 2</a>.</p>
+
+</footer><!-- /.post-info -->                <h1>Topic Name : Human in the Loop Systems</h1>
+<h1>Slides<br></h1>
+<h1><li><a href="https://www.dropbox.com/home/Batch7/Slides/Day16?preview=Human_in_the_loop.pptx" target="_blank"> Human in the Loop Systems</a></li> <br></h1>
+<h1>Preview Video <br><br></h1>
+<p><iframe src="https://videoken.com/embed/vkene-yGHvedEkNw"width="640" height="480"></iframe></p>
+<p><br><br></p>
+<h1>Experiment<br><br></h1>
+<p><strong>Rocchios_Algorithm:</strong> <br></p>
+<ol>
+<li>Understand the challenges of information retrieval on Wikipedia articles</li>
+<li>Weighted kNN algorithm for relevance feedback</li>
+<li>Rocchio algorithm for relevance feedback</li>
+</ol>
+<p><strong>Note:</strong>Here is the following Notebook For <a href="https://drive.google.com/file/d/1W1aklE3VN7BxjJLiuiyOHF0hb9JecgAH/view?usp=sharing">Rocchios_Algorithm</a></p>
+<h3>Experiment Explanation Video <br><br></h3>
+<p><iframe src="https://cdn.talentsprint.com/aiml/AIML_BATCH_HYD_7/10march/Rocchio.mp4"width="640" height="480"></iframe></p>
+<p><br><br></p>
+<h1>Lecture Video ...</h1>
+                <a class="readmore" href="../lecture16-details.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../lecture17-details.html" rel="bookmark"
+                           title="Permalink to Lecture17 Details">Lecture17 Details</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-07-23T23:39:00+05:30">
+                Published: Tue 23 July 2019
+        </abbr>
+		<br />
+        <abbr class="modified" title="2019-05-07T23:39:00+05:30">
+                Updated: Tue 07 May 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/talentsprint.html">TalentSprint</a>
+        </address>
+<p>In <a href="../category/module-3.html">Module 3</a>.</p>
+
+</footer><!-- /.post-info -->                <h1>Topic Name :  Convolutional Neural Networks</h1>
+<h1><li><a href="https://drive.google.com/file/d/19lJQH-cBYL15DrOWXVoXWXAH3x9IhM9w/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br></h1>
+<h1>Slides<br></h1>
+<h1><li><a href="https://www.dropbox.com/home/Batch7/Slides/Day22?preview=CNN.pptx" target="_blank">Convolutional Neural Networks</a></li> <br></h1>
+<h1>Preview Video <br><br></h1>
+<p><iframe src="https://videoken.com/embed/vkene-KwZ4LFCo6Q"width="640" height="480"></iframe></p>
+<p><br><br></p>
+<h1>Experiment<br><br></h1>
+<p><strong>Visualization_CNNs</strong><br>
+1. Apply Matthew D Zeiler, Rob Fergus approach to visualize CNNs<br>
+2. Apply  Mahendran and Vedaldi approach to visualize CNNs<br>
+3. Visualize the learned representations at each layer from the network<br> </p>
+<p><strong>Note:</strong>Here is the following ...</p>
+                <a class="readmore" href="../lecture17-details.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../lecture18-details.html" rel="bookmark"
+                           title="Permalink to Lecture18 Details">Lecture18 Details</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-07-23T23:39:00+05:30">
+                Published: Tue 23 July 2019
+        </abbr>
+		<br />
+        <abbr class="modified" title="2019-05-07T23:39:00+05:30">
+                Updated: Tue 07 May 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/talentsprint.html">TalentSprint</a>
+        </address>
+<p>In <a href="../category/module-3.html">Module 3</a>.</p>
+
+</footer><!-- /.post-info -->                <h1>Topic Name : Autoencoders</h1>
+<h1><li><a href="https://drive.google.com/file/d/11Mfwuvz70f8TMpILbMRC0yVN-Nni-xbC/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br></h1>
+<h1>Slides<br></h1>
+<h1><li><a href="https://www.dropbox.com/home/Batch7/Slides/Day22?preview=AE.pptx" target="_blank">Autoencoders</a></li> <br></h1>
+<h1>Preview Video <br><br></h1>
+<p><iframe src="https://videoken.com/embed/vkene-K1W7Wt4nUw"width="640" height="480"></iframe></p>
+<p><br><br></p>
+<h1>Experiments<br><br></h1>
+<p><strong>AutoEncoder_MNIST:</strong> <br></p>
+<ol>
+<li>Perform dimensionality reduction using Autoencoder<br></li>
+<li>Understand the relationship between Autoencoder and PCA<br></li>
+</ol>
+<p><br><br>
+</p></p>
+<p><strong>Note:</strong>Here is the following Notebook For <a href="https://drive.google.com/file/d/1ufbjEovZfaqrr2154OcE0RmhTAPuUdpY/view?usp=sharing">AutoEncoder_MNIST</a></p>
+<h3>Experiment Explanation Video <br><br></h3>
+<p><iframe src="https://cdn.talentsprint.com/talentsprint/archives/sc/aiml/aiml_2018_blr_b6/cfus/week_11/module_3_week_11_experiment_1.mp4"width="640" height="480"></iframe>
+<br><br></p>
+<p><strong>Autoencoder_Word2vec_text:</strong> <br>
+1. Understand how to deal with the text preprocessing<br>
+2. Perform dimensionality reduction using an Autoencoder ...</p>
+                <a class="readmore" href="../lecture18-details.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+<p class="paginator">
+    Page 1 / 4
+        <a href="../author/talentsprint2.html">&raquo;</a>
+</p>
+                </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="https://scikit-learn.org/stable/">sklearn</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
