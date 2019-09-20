@@ -72,7 +72,7 @@ Category:Module 1
  
 
         
-       <ul id="lecture8"></ul>
+       <ul id="spl4"></ul>
 
 
 	<span class="contact100-form-title"> Comments Box</span>
@@ -116,7 +116,7 @@ var firebaseConfig = {
        //Rootref is the whole database.
        const rootRef = firebase.database().ref();
        //commentsRef is just the pageCountsNode
-       const commentsRef = rootRef.child('spl4');
+       const commentsRef = rootRef.child('comments/spl4');
        //Listen for click on Submit Comment button, and post comment.
        document.getElementById("btnSubmitComment").addEventListener("click", function () {
        //Replace line breaks in comment with br tags.
@@ -135,7 +135,7 @@ var firebaseConfig = {
        function showpastcomments() {
        var showat = document.getElementById('spl4');
        //Get comments whose from page equals this page's pathname.
-       var commentsRef = firebase.database().ref('spl4/');
+       var commentsRef = firebase.database().ref('comments/spl4');
        commentsRef.once('value', function (snapshot) {
        snapshot.forEach(function (itemSnapshot) {
        //Get the object for one snapshot
@@ -186,7 +186,7 @@ var firebaseConfig = {
 function removeData_1(params){
    const fb = firebase.database().ref()
    // key = document.getElementById('key').value;
-    fb.child('spl4/'+ params.id +'/').remove()
+    fb.child('comments/spl4'+ params.id +'/').remove()
     alert('The comment is deleted successfully!');
     reload_page();
     

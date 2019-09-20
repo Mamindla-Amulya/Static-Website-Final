@@ -3,16 +3,16 @@ Date: 2019-07-23 23:39
 Modified: 2019-05-07 23:39
 Category: Module 1
 
-####Topic Name: Learning Representations Word2Vec
+#Topic Name: Learning Representations Word2Vec
 
 <br>
-###<li><a href="https://drive.google.com/file/d/1HjFaVlYw7OYTXpRjR1Tl20ZLwHhc1RNJ/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br>
+#<li><a href="https://drive.google.com/file/d/1HjFaVlYw7OYTXpRjR1Tl20ZLwHhc1RNJ/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br>
 
-####Slides
+#Slides
 #<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day04?preview=2-Learning_Representations_Word2Vec.pptx" target="_blank">Learning Representations Word2Vec</a></li> <br>
 
 <br>
-####Preview Video <br><br>
+#Preview Video <br><br>
 <iframe src="https://videoken.com/embed/vkene-wFNxD17Mrg"width="640" height="480"></iframe>
 
 #Experiment<br><br>
@@ -29,7 +29,7 @@ Category: Module 1
 <br><br>
 
 <br>
-###Lecture Video (Batch 9) <br><br>
+#Lecture Video (Batch 9) <br><br>
 <iframe src="https://videoken.com/embed/vkene-TYsh1ejDUA"width="640" height="480"></iframe>
 
 
@@ -63,7 +63,6 @@ Category: Module 1
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 
-
 <style> 
       
       li#news  {
@@ -74,6 +73,7 @@ Category: Module 1
            
         }
 </style>
+
 
 </head>
 
@@ -92,7 +92,7 @@ Category: Module 1
 	<span class="contact100-form-title"> Comments Box</span>
 
 	<div class="wrap-input100 validate-input" data-validate="Please enter your name">
-        <input class="input100" id="tbName" type="text" maxlength="20" placeholder="Full Name" required>	
+       <input class="input100" id="tbName" type="text" maxlength="20" placeholder="Full Name" required>	
         <span class="focus-input100"></span>
 	</div>
 
@@ -130,7 +130,7 @@ var firebaseConfig = {
        //Rootref is the whole database.
        const rootRef = firebase.database().ref();
        //commentsRef is just the pageCountsNode
-       const commentsRef = rootRef.child('lecture2');
+       const commentsRef = rootRef.child('comments/lecture2');
        //Listen for click on Submit Comment button, and post comment.
        document.getElementById("btnSubmitComment").addEventListener("click", function () {
        //Replace line breaks in comment with br tags.
@@ -149,7 +149,7 @@ var firebaseConfig = {
        function showpastcomments() {
        var showat = document.getElementById('lecture2');
        //Get comments whose from page equals this page's pathname.
-       var commentsRef = firebase.database().ref('lecture2/');
+       var commentsRef = firebase.database().ref('comments/lecture2');
        commentsRef.once('value', function (snapshot) {
        snapshot.forEach(function (itemSnapshot) {
        //Get the object for one snapshot
@@ -200,7 +200,7 @@ var firebaseConfig = {
 function removeData_1(params){
    const fb = firebase.database().ref()
    // key = document.getElementById('key').value;
-    fb.child('lecture2/'+ params.id +'/').remove()
+    fb.child('comments/lecture2'+ params.id +'/').remove()
     alert('The comment is deleted successfully!');
     reload_page();
     
@@ -215,6 +215,9 @@ function reload_page(){
 
 
 </script>
+
+
+
 
 
 

@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>SPL8 Details</title>
-        <link rel="stylesheet" href="./theme/css/main.css" />
+        <title>AIML Content - Moduel 1</title>
+        <link rel="stylesheet" href="../theme/css/main.css" />
 
         <!--[if IE]>
             <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -12,23 +12,19 @@
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="./">AIML Content </a></h1>
+                <h1><a href="../">AIML Content </a></h1>
                 <nav><ul>
-                    <li><a href="./category/master.html">Master</a></li>
-                    <li><a href="./category/module-1.html">Module 1</a></li>
-                    <li class="active"><a href="./category/module-2.html">Module 2</a></li>
-                    <li><a href="./category/module-3.html">Module 3</a></li>
+                    <li><a href="../category/master.html">Master</a></li>
+                    <li class="active"><a href="../category/moduel-1.html">Moduel 1</a></li>
+                    <li><a href="../category/module-1.html">Module 1</a></li>
+                    <li><a href="../category/module-2.html">Module 2</a></li>
+                    <li><a href="../category/module-3.html">Module 3</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="./spl8-details.html" rel="bookmark"
-           title="Permalink to SPL8 Details">SPL8 Details</a></h1>
-    </header>
 
-    <div class="entry-content">
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="../lecture2-details.html">Lecture2 Details</a></h1>
 <footer class="post-info">
         <abbr class="published" title="2019-07-23T23:39:00+05:30">
                 Published: Tue 23 July 2019
@@ -39,15 +35,30 @@
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="./author/talentsprint.html">TalentSprint</a>
+                By                         <a class="url fn" href="../author/talentsprint.html">TalentSprint</a>
         </address>
-<p>In <a href="./category/module-2.html">Module 2</a>.</p>
+<p>In <a href="../category/moduel-1.html">Moduel 1</a>.</p>
 
-</footer><!-- /.post-info -->      <h1>Topic Name :  Timeseries Application</h1>
-<h1>Slides<br></h1>
-<h1><li><a href="https://www.dropbox.com/home/Batch7/Slides/Day18?preview=TimeSeries.pptx" target="_blank"> Timeseries Application</a></li> <br></h1>
+</footer><!-- /.post-info --><h1>Topic Name: Learning Representations Word2Vec</h1>
+<p><br></p>
+<h1><li><a href="https://drive.google.com/file/d/1HjFaVlYw7OYTXpRjR1Tl20ZLwHhc1RNJ/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br></h1>
+<h1>Slides</h1>
+<h1><li><a href="https://www.dropbox.com/home/Batch7/Slides/Day04?preview=2-Learning_Representations_Word2Vec.pptx" target="_blank">Learning Representations Word2Vec</a></li> <br></h1>
+<p><br></p>
+<h1>Preview Video <br><br></h1>
+<p><iframe src="https://videoken.com/embed/vkene-wFNxD17Mrg"width="640" height="480"></iframe></p>
+<h1>Experiment<br><br></h1>
+<p><strong>Newsgroup: Word2vec</strong> <br>
+1. Apply word2vec to find the Representation of  text document<br>
+2.  Classify the word2vec represented documents using KNN<br>
+<strong>Note:</strong>Here is the following Notebook For <a href="https://drive.google.com/file/d/1IsClVg_cUR4z_xs0wpfvoR7gRcYBnzde/view?usp=sharing">Newsgroup: Word2vec</a></p>
+<p><br><br></p>
+<h3>Experiment Explanation Video <br><br></h3>
+<p><iframe src="https://cdn.talentsprint.com/aiml/AIML_BATCH_HYD_7/JAN20/word2vec_experiment.mp4"width="640" height="480"></iframe></p>
+<p><br><br></p>
+<p><br></p>
 <h1>Lecture Video (Batch 9) <br><br></h1>
-<p><iframe src="https://videoken.com/embed/vkene-1Xpxzdml6w"width="640" height="480"></iframe></p>
+<p><iframe src="https://videoken.com/embed/vkene-TYsh1ejDUA"width="640" height="480"></iframe></p>
 <p><head></p>
 <p><meta name="description" content="Use a free Google Firebase Database to allow visitors to leave comments on your web pages. From https://AlanSimpson.me/firebase">    <br />
 <meta name="author" content="Alan Simpson">
@@ -94,13 +105,13 @@
 
 
 
-       <ul id="spl8"></ul>
+       <ul id="lecture2"></ul>
 
 
     <span class="contact100-form-title"> Comments Box</span>
 
     <div class="wrap-input100 validate-input" data-validate="Please enter your name">
-        <input class="input100" id="tbName" type="text" maxlength="20" placeholder="Full Name" required>    
+       <input class="input100" id="tbName" type="text" maxlength="20" placeholder="Full Name" required> 
         <span class="focus-input100"></span>
     </div>
 
@@ -142,7 +153,7 @@ var firebaseConfig = {
        //Rootref is the whole database.
        const rootRef = firebase.database().ref();
        //commentsRef is just the pageCountsNode
-       const commentsRef = rootRef.child('comments/spl8');
+       const commentsRef = rootRef.child('comments/lecture2');
        //Listen for click on Submit Comment button, and post comment.
        document.getElementById("btnSubmitComment").addEventListener("click", function () {
        //Replace line breaks in comment with br tags.
@@ -159,9 +170,9 @@ var firebaseConfig = {
      });
 
        function showpastcomments() {
-       var showat = document.getElementById('spl8');
+       var showat = document.getElementById('lecture2');
        //Get comments whose from page equals this page's pathname.
-       var commentsRef = firebase.database().ref('comments/spl8');
+       var commentsRef = firebase.database().ref('comments/lecture2');
        commentsRef.once('value', function (snapshot) {
        snapshot.forEach(function (itemSnapshot) {
        //Get the object for one snapshot
@@ -214,7 +225,7 @@ var firebaseConfig = {
 function removeData_1(params){
    const fb = firebase.database().ref()
    // key = document.getElementById('key').value;
-    fb.child('comments/spl8'+ params.id +'/').remove()
+    fb.child('comments/lecture2'+ params.id +'/').remove()
     alert('The comment is deleted successfully!');
     reload_page();
 
@@ -227,11 +238,8 @@ function reload_page(){
 
 
 
-</script>
-    </div><!-- /.entry-content -->
-
-  </article>
-</section>
+</script>                </article>
+            </aside><!-- /#featured -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>blogroll</h2>

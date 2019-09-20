@@ -133,7 +133,7 @@ var firebaseConfig = {
        //Rootref is the whole database.
        const rootRef = firebase.database().ref();
        //commentsRef is just the pageCountsNode
-       const commentsRef = rootRef.child('lecture1');
+       const commentsRef = rootRef.child('comments/lecture1');
        //Listen for click on Submit Comment button, and post comment.
        document.getElementById("btnSubmitComment").addEventListener("click", function () {
        //Replace line breaks in comment with br tags.
@@ -152,7 +152,7 @@ var firebaseConfig = {
        function showpastcomments() {
        var showat = document.getElementById('lecture1');
        //Get comments whose from page equals this page's pathname.
-       var commentsRef = firebase.database().ref('lecture1/');
+       var commentsRef = firebase.database().ref('comments/lecture1');
        commentsRef.once('value', function (snapshot) {
        snapshot.forEach(function (itemSnapshot) {
        //Get the object for one snapshot
@@ -203,7 +203,7 @@ var firebaseConfig = {
 function removeData_1(params){
    const fb = firebase.database().ref()
    // key = document.getElementById('key').value;
-    fb.child('lecture1/'+ params.id +'/').remove()
+    fb.child('comments/lecture1'+ params.id +'/').remove()
     alert('The comment is deleted successfully!');
     reload_page();
     
