@@ -6,7 +6,7 @@ Category:Module 2
 # Topic Name : Human in the Loop Systems
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day16?preview=Human_in_the_loop.pptx" target="_blank"> Human in the Loop Systems</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/3bvy7x1d2iepec0/Human_in_the_loop.pptx?dl=0" target="_blank"> Human in the Loop Systems</a></li> <br>
 
 #Preview Video <br><br>
 <iframe src="https://videoken.com/embed/vkene-yGHvedEkNw"width="640" height="480"></iframe>

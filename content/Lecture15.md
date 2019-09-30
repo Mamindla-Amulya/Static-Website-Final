@@ -9,9 +9,9 @@ Category:Module 2
 #<li><a href="https://drive.google.com/file/d/1GNhMMRHpJxeuB4GX2g1VlsIDI5FwIZ-C/view?usp=sharing" target="_blank">Pre-Reading For Random Forests</a></li> <br>
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day16?preview=Randomforest.pptx" target="_blank">Random Forests</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/35kt4sfvnh2duhx/Randomforest.pptx?dl=0" target="_blank">Random Forests</a></li> <br>
 
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day16?preview=Ensemble_Methods.pptx" target="_blank">Ensemble Techniques</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/7rtuatx7bic37rf/Ensemble_Methods.pptx?dl=0" target="_blank">Ensemble Techniques</a></li> <br>
 
 
 #Preview Video <br><br>
