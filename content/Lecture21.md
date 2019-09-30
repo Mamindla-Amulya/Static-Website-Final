@@ -7,7 +7,7 @@ Category:Module 3
 
 #Slides<br>
 
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day26?preview=Beyond_AlexNet.pptx" target="_blank">Beyond AlexNet</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/g20dkyk6nmo7vg0/Beyond_AlexNet.pptx?dl=0" target="_blank">Beyond AlexNet</a></li> <br>
 
 
 

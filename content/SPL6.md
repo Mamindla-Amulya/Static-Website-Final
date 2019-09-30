@@ -6,7 +6,7 @@ Category:Module 2
 # Topic Name : Pytorch
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day14?preview=Pytorch.pptx" target="_blank">Pytorch</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/nedxgkbxzayi702/Pytorch.pptx?dl=0" target="_blank">Pytorch</a></li> <br>
 
 #Experiments<br><br>
 

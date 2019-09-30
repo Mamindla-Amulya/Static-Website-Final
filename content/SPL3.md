@@ -10,7 +10,7 @@ Category:Module 1
 #<li><a href="https://drive.google.com/file/d/15yDb6snM7b3r36wJKI6ho4lHyis3gKPY/view?usp=sharing" target="_blank">Pre-Reading For ISOMAP</a></li> <br>
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day10?preview=DataVisualization.pptx" target="_blank">Visualization</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/73u867s8fytho4g/DataVisualization.pptx?dl=0" target="_blank">Visualization</a></li> <br>
 
 #Preview Video <br><br>
 <iframe src="https://videoken.com/embed/vkene-ciUfMCEE5A"width="640" height="480"></iframe>

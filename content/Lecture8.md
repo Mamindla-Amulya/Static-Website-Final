@@ -6,7 +6,7 @@ Category:Module 1
 #Topic Name: Features for Perception-2
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day08?preview=Features_for_Perception_2.pptx" target="_blank">Features for Perception-2</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/b5flivbg3m4lzyz/Features_for_Perception_2.pptx?dl=0" target="_blank">Features for Perception-2</a></li> <br>
 
 
 #Experiment<br><br>

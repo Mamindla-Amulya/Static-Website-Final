@@ -7,7 +7,8 @@ Category:Module 3
 
 #Slides<br>
 
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day26?preview=Advanced_topics.pptx" target="_blank">GANs</a></li> <br>
+#<li><a href="
+https://www.dropbox.com/s/ppjib86huvyy65t/Advanced_topics.pptx?dl=0" target="_blank">GANs</a></li> <br>
 
 
 

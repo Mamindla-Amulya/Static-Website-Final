@@ -9,7 +9,7 @@ Category:Module 1
 #<li><a href="https://drive.google.com/file/d/1fvQnvDf2hBbgrgUieRytHlAL2getXDtb/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br>
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day04?preview=1-Representing_Text_and_Language.pptx" target="_blank">Representing Text and Language
+#<li><a href="https://www.dropbox.com/s/zcc8svhs1rrff93/1-Representing_Text_and_Language.pptx?dl=0" target="_blank">Representing Text and Language
 </a></li> <br>
 
 

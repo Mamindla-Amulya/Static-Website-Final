@@ -7,7 +7,7 @@ Category:Module 3
 
 #Slides<br>
 
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day26?preview=Siamese_Networks_14th_april.pptx" target="_blank">Siamese</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/ipbyau8bogu5y5v/Siamese_Networks_14th_april.pptx?dl=0" target="_blank">Siamese</a></li> <br>
 
 
 #Preview Video <br><br>

@@ -8,7 +8,7 @@ Category:Module 2
 #<li><a href="https://drive.google.com/drive/u/0/folders/1FpiksG6hssat67iw4RzHT2FehvIEpAVv" target="_blank">Pre-Reading</a></li> <br>
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day16?preview=SVM.pptx" target="_blank">Support Vector Machines - Linear and Non Linear</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/5ewsx2hgb6wv2ph/SVM.pptx?dl=0" target="_blank">Support Vector Machines - Linear and Non Linear</a></li> <br>
 
 #Preview Video For Suport Vector Machines- Linear <br><br>
 <iframe src="https://videoken.com/embed/vkene-KgEDTmD5Fw"width="640" height="480"></iframe>

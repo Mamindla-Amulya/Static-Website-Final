@@ -9,7 +9,7 @@ Category:Module 3
 
 #Slides<br>
 
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day22?preview=Appreciating_CNN.pptx" target="_blank"> Appreciating CNNs</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/amng8w2brq3cben/Appreciating_CNN.pptx?dl=0" target="_blank"> Appreciating CNNs</a></li> <br>
 
 
 #Preview Video <br><br>

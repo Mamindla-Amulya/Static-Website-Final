@@ -8,7 +8,7 @@ Category: Module 1
 #<li><a href="https://drive.google.com/file/d/1przpVV57IPPVhiqN5w4erDVEU-XTUv0o/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br>
 
 #Slides For PCA and EigenFaces
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day08?preview=PCA_EigenFaces.pptx" target="_blank">PCA</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/0zcoehfwgo6ebgt/PCA_EigenFaces.pptx?dl=0" target="_blank">PCA</a></li> <br>
 
 #Preview Video: PCA part-1 <br><br>
 <iframe src="https://videoken.com/embed/vkene-eXZtcafu8g"width="640" height="480"></iframe>

@@ -8,7 +8,7 @@ Category:Module 2
 #<li><a href="https://drive.google.com/file/d/1YRhK5H6PXNXzw4LTTnF0U0yxn6IYvJbl/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br>
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day16?preview=TimeSeries_RNN.pptx" target="_blank">Time Series/RNN</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/h300dw3s9p45zqn/TimeSeries_RNN.pptx?dl=0" target="_blank">Time Series/RNN</a></li> <br>
 
 #Preview Video <br><br>
 <iframe src="https://videoken.com/embed/vkene-Q5u7yywKxA"width="640" height="480"></iframe>

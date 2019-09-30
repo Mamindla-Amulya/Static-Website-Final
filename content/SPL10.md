@@ -9,7 +9,7 @@ Category:Module 3
 
 #Slides<br>
 
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day24?preview=Deployment_of_ML_Solutions.pptx" target="_blank"> Model Compression</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/p3hwko23txe5jzh/Deployment_of_ML_Solutions.pptx?dl=0" target="_blank">Deployment ML Solutions</a></li> <br>
 
 
 #Lecture Video (Batch 9) <br><br>

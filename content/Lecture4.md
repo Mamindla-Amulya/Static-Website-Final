@@ -8,7 +8,7 @@ Category:Module 1
 #<li><a href="https://drive.google.com/file/d/1U76jTQvAfe4_21KZOD4MYwnr3KNSsO5E/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br>
 
 #Slides
-#<li><a href="https://drive.google.com/drive/u/0/folders/12rE0aoeZ-jNSvqJmK-0h5gdQ_FF0qoPh" target="_blank">Dimensionality Reduction</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/xzpq8djbtadnxxh/4-Dimensionality_reduction.pptx?dl=0" target="_blank">Dimensionality Reduction</a></li> <br>
 
 
 

@@ -6,7 +6,7 @@ Category:Module 2
 # Topic Name :  Timeseries Application
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day18?preview=TimeSeries.pptx" target="_blank"> Timeseries Application</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/ic0t1tca8yv437r/TimeSeries.pptx?dl=0" target="_blank"> Timeseries Application</a></li> <br>
 
 
 #Lecture Video (Batch 9) <br><br>

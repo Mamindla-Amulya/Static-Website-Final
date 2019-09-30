@@ -8,7 +8,7 @@ Category:Module 3
 #<li><a href="https://drive.google.com/file/d/19-0ZkFCAafiBvyNhYkFev5hPLhYsJJE2/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br>
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day22?preview=RNNs.pptx" target="_blank">RNN</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/97mwecldkccq1zx/RNNs.pptx?dl=0" target="_blank">RNN</a></li> <br>
 
 #Preview Video <br><br>
 <iframe src="https://videoken.com/embed/vkene-yT9v-tjDvQ"width="640" height="480"></iframe>

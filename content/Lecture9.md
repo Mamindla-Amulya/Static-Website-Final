@@ -8,7 +8,7 @@ Category:Module 2
 #<li><a href="https://drive.google.com/file/d/19lJQH-cBYL15DrOWXVoXWXAH3x9IhM9w/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br>
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day12?preview=Convolution_layer.pptx" target="_blank">Convolutional Neural Networks</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/7vt9d3knn6r90m1/Convolution_layer.pptx?dl=0" target="_blank">Convolutional Neural Networks</a></li> <br>
 
 #Preview Video <br><br>
 <iframe src="https://videoken.com/embed/vkene-KwZ4LFCo6Q"width="640" height="480"></iframe>

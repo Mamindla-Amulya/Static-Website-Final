@@ -8,7 +8,7 @@ Category:Module 1
 #<li><a href="https://drive.google.com/drive/u/0/folders/1omaq4jSC2LozvwbJw96K5voy7-US0qu3" target="_blank">Pre-Reading</a></li> <br>
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day04?preview=3-Perceptrons_Neural_Networks_Gradient+Descent+.pptx" target="_blank">Perceptrons, Neural Networks</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/s92u9r6rb32zyxl/3-Perceptrons_Neural_Networks_Gradient%20Descent%20.pptx?dl=0" target="_blank">Perceptrons, Neural Networks</a></li> <br>
 
 #Preview Video <br><br>
 #<iframe src="https://videoken.com/embed/vkene-Ecg798cEfA"width="640" height="480"></iframe>
@@ -28,8 +28,6 @@ Category:Module 1
 
 #<li><a href="https://drive.google.com/drive/u/0/folders/1omaq4jSC2LozvwbJw96K5voy7-US0qu3" target="_blank">Pre-Reading</a></li> <br>
 
-#Slide<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day04?preview=3-Perceptrons_Neural_Networks_Gradient+Descent+.pptx" target="_blank">Gradient Descent</a></li> <br>
 
 
 #Preview Video <br><br>

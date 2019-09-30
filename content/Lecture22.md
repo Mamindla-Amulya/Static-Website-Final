@@ -7,7 +7,7 @@ Category:Module 3
 
 #Slides<br>
 
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day26?preview=Advances_in_Training.pptx" target="_blank">Advances in Training</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/uio3us30lnrbyby/Advances_in_Training.pptx?dl=0" target="_blank">Advances in Training</a></li> <br>
 
 
 

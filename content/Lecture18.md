@@ -9,7 +9,7 @@ Category:Module 3
 
 
 # Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day22?preview=AE.pptx" target="_blank">Autoencoders</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/9amphek7u5c3rqj/AE.pptx?dl=0" target="_blank">Autoencoders</a></li> <br>
 
 #Preview Video <br><br>
 <iframe src="https://videoken.com/embed/vkene-K1W7Wt4nUw"width="640" height="480"></iframe>

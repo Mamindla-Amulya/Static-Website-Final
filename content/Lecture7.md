@@ -6,7 +6,7 @@ Category:Module 1
 #Topic Name: Features for Perception-1
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day08?preview=Features_for_Perception_1.pptx" target="_blank">Features for Perception-1</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/pdelxwa1nmk6flk/Features_for_Perception_1.pptx?dl=0" target="_blank">Features for Perception-1</a></li> <br>
 
 #Experiment<br><br>
 **Yes_No_Classifier_Speech**<br>

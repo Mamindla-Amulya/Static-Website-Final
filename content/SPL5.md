@@ -11,7 +11,7 @@ Category:Module 2
 
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day14?preview=Unsupervisedlearning.pptx" target="_blank">Unsupervised Learning</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/cgrafr0k3dcjev9/Unsupervisedlearning.pptx?dl=0" target="_blank">Unsupervised Learning</a></li> <br>
 
 
 

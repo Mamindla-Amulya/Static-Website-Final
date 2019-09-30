@@ -10,7 +10,7 @@ Category:Module 3
 
 #Slides<br>
 
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day24?preview=Model+Compression.pptx" target="_blank"> Model Compression</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/0qub6gb89smdy22/Model%20Compression.pptx?dl=0" target="_blank"> Model Compression</a></li> <br>
 
 
 

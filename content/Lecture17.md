@@ -8,7 +8,7 @@ Category:Module 3
 #<li><a href="https://drive.google.com/file/d/19lJQH-cBYL15DrOWXVoXWXAH3x9IhM9w/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br>
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day22?preview=CNN.pptx" target="_blank">Convolutional Neural Networks</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/6mjd6nh3r6hkdza/CNN.pptx?dl=0" target="_blank">Convolutional Neural Networks</a></li> <br>
 
 
 #Preview Video <br><br>

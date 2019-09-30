@@ -9,7 +9,7 @@ Category:Module 1
 
 
 #Slides
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day06?preview=Performance_metrics.pptx" target="_blank">Performance Metrics (Accuracy)</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/eofq6p80wdhbnxv/Performance_metrics.pptx?dl=0" target="_blank">Performance Metrics (Accuracy)</a></li> <br>
 
 
 #Preview Video <br><br>

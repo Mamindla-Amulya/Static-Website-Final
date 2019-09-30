@@ -8,7 +8,7 @@ Category:Module 1
 #<li><a href="https://drive.google.com/file/d/1Kjk7wyXsU1p_IUbY4WRMK7cH85tcr___/view?usp=sharing" target="_blank">Pre-Reading</a></li> <br>
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day08?preview=MLP.pptx" target="_blank">Multi-Layer Perceptrons</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/pyfnurdnpmwykzs/MLP.pptx?dl=0" target="_blank">Multi-Layer Perceptrons</a></li> <br>
 
 #Preview Video <br><br>
 <iframe src="https://videoken.com/embed/vkene-a0yjEjEBKw"width="640" height="480"></iframe>

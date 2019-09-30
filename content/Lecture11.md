@@ -6,7 +6,7 @@ Category: Module 2
 #Topic Name: ML Pipeline
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day12?preview=ML_Pipeline.pptx" target="_blank">ML Pipeline</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/3wxjmz4d5g5ghvx/ML_Pipeline.pptx?dl=0" target="_blank">ML Pipeline</a></li> <br>
 
 #Preview Video <br><br>
 <iframe src="https://videoken.com/embed/vkene-Jf4PwKS4VQ"width="640" height="480"></iframe>

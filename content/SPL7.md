@@ -6,7 +6,7 @@ Category:Module 2
 # Topic Name :  Recommendation Systems
 
 #Slides<br>
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day18?preview=Recommendation_Systems.pptx" target="_blank">Recommendation Systems</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/hiz2y3oej1rq6b9/Recommendation_Systems.pptx?dl=0" target="_blank">Recommendation Systems</a></li> <br>
 
 
 #Preview Video <br><br>
