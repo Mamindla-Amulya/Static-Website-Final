@@ -23,7 +23,7 @@ Category:Module 1
 #<li><a href="https://drive.google.com/drive/u/0/folders/1VgmAOPCno1UopRTLkei572Zxc1Cdd_I2" target="_blank">Pre-Reading</a></li> <br>
 
 #Slides
-#<li><a href="https://www.dropbox.com/home/Batch7/Slides/Day06?preview=Performance_metrics.pptx" target="_blank">Performance Metrics (Precision and Recall)</a></li> <br>
+#<li><a href="https://www.dropbox.com/s/eofq6p80wdhbnxv/Performance_metrics.pptx?dl=0" target="_blank">Performance Metrics (Precision and Recall)</a></li> <br>
 
 
 #Preview Video <br><br>
