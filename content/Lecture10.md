@@ -17,7 +17,7 @@ Category:Module 2
 
 
 #Lecture Video (Batch 9) <br><br>
-<iframe src="https://videoken.com/embed/vkene-esgJ9Gg2Gw"width="640" height="480"></iframe>
+<iframe src="https://videoken.com/embed/vkene-LMOICsPpPQ"width="640" height="480"></iframe>
 
 
 <head>
